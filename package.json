@@ -1,0 +1,7 @@
+{
+  "name": "archives",
+  "scripts": {},
+  "devDependencies": {
+    "zenn-cli": "^0.1.117"
+  }
+}
