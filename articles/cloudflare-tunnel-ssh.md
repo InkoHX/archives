@@ -63,8 +63,8 @@ Cloudflare Tunnel を使うと**SSH ポートを開放する必要がない**の
 `sshd_config`には以下のように設定を追加する
 
 ```diff:sshd_config
-+ PubkeyAuthentication yes
-+ TrustedUserCAKeys /etc/ssh/ca.pub
++PubkeyAuthentication yes
++TrustedUserCAKeys /etc/ssh/ca.pub
 ```
 
 ## クライアント側
@@ -77,11 +77,11 @@ https://developers.cloudflare.com/cloudflare-one/identity/users/short-lived-cert
 
 ### `~/.ssh/config`
 
-```config:~/.ssh/config
-Host ssh.example.com
-  User inkohx
-  IdentityFile 秘密鍵のパス
-  ProxyCommand cloudflared access ssh --hostname %h
+```diff:~/.ssh/config
++Host ssh.example.com
++  User inkohx
++  IdentityFile 秘密鍵のパス
++  ProxyCommand cloudflared access ssh --hostname %h
 ```
 
 https://developers.cloudflare.com/cloudflare-one/tutorials/ssh/#native-terminal
