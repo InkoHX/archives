@@ -1,7 +1,10 @@
 {
   "name": "archives",
-  "scripts": {},
+  "scripts": {
+    "fmt": "prettier --write ."
+  },
   "devDependencies": {
+    "prettier": "^2.7.1",
     "zenn-cli": "^0.1.121"
   }
 }
