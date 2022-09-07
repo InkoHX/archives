@@ -3,7 +3,7 @@ title: 'Cloudflare Tunnelを使ってSSHする'
 emoji: '☁️'
 type: 'tech' # tech: 技術記事 / idea: アイデア
 topics: ['cloudflare', 'ssh']
-published: false
+published: true
 ---
 
 つい先日 Raspberry Pi 4 Model B (8GB) を購入し、別のマシンや外出先からリモートで SSH できるようにしようと思っていたところ Cloudflare Zero Trust の Cloudflare Tunnel というものを知人から知ったので使ってみることにした。
